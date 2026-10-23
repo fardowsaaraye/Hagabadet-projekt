@@ -11,5 +11,7 @@ Den här mappen innehåller designarbetet för webbplatsen Hagabadet.
 - Desktop frame: wireframe som visar webbplatsens struktur och layout för dator. 
 
 ## Mockup
-Mockupen visar webbplatsens visuella design med färger, bilder och innehåll. Jag valde en lugn och något mörkare stil med krämvita och bruna toner samt mörka bilder för att skapa en elegant och harmonisk känsla som passar hagabadets spa-koncept. 
+Mockupen visar webbplatsens visuella design med färger, bilder och innehåll. Jag valde en lugn och något mörkare stil med krämvita och bruna toner samt  bilder för att skapa en elegant och harmonisk känsla som passar hagabadets spa-koncept. 
 
+## Bildmaterial 
+Bilderna som används i webbprojektet hämtades från Unsplash. Jag valde bilder med varma toner och dämpad belysning för att skapa en avslappnade spakänsla som passade den vision jag hade för webbplatsen.
