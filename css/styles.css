@@ -74,3 +74,36 @@ nav a {
     margin-left: 27px;
     }
 
+/* Introduktionssektion */
+.intro {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 50px;
+ padding: 35px 8px;
+ }
+.intro-text {
+    font-size: 16px;
+    font-family: "Cormorant Garamond",serif;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    max-width: 400px;
+    margin-left: 100px;
+ } 
+
+.intro-text h2 {
+    font-size: 25px;
+    font-weight: 60;
+    line-height: 1.4;
+    margin-top: 0;
+    } 
+ .intro-bild {
+  width: 500px;
+  margin-right: 150px;
+    }
+.intro-bild img {
+    display: block;
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+     }
