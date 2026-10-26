@@ -107,3 +107,41 @@ nav a {
     height: 300px;
     object-fit: cover;
      }
+/* Upplevelsesektion - våra upplevelser */
+.upplevelser {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #F8F4EE;
+    }
+.upplevelser h2 {
+    font-size: 28px;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    font-weight: 80;
+     }
+.upplevelse-kort {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.upplevelse-kort img { 
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    }
+.upplevelse-spa p { 
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+.upplevelse-massage p { 
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+.upplevelse-yoga p {
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+     }
