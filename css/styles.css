@@ -177,7 +177,7 @@ footer h3 {
     margin-bottom: 20px;
     letter-spacing: 3px;
  }
-/* Upplevelser.html */
+/* Upplevelse sidan */
 
 .hero-upplevelser {
     position: relative;
@@ -273,3 +273,30 @@ footer h3 {
     padding: 30px 60px;
     gap: 40px;
     }
+
+/* Kontakt sida */
+.kontakt-formular { 
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px;
+     }
+.kontakt-formular input { 
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
+.kontakt-formular textarea { 
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+.kontakt-formular h1 {
+    font-family: "Cormorant Garamond",serif;
+    font-size: 33px;
+    letter-spacing: 2px;
+    }
+.kontakt-formular p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
