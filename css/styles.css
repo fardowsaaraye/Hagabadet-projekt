@@ -214,7 +214,7 @@ footer h3 {
      }
 .massage img {
     width: 350px;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
 }
 .yoga img {
@@ -222,3 +222,54 @@ footer h3 {
     height: 200px;
     object-fit: cover;
      }
+.spa h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color:  #E8D9C9;
+    }
+.spa p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    }
+.massage h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color: #E8D9C9;
+    }
+.massage p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    }
+.yoga h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color: #E8D9C9;;
+    }
+.yoga p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    }
+.spa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+  }
+.massage {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+     }
+.yoga { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+    }
