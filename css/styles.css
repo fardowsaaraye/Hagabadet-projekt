@@ -330,6 +330,29 @@ display: none;
         align-items: flex-start;
         gap: 13px;
         padding-top: 15px;
-        
     }
+   .intro-bild {
+    display: none;
+    }
+   .intro-text {
+    text-align: center;
+    margin: 0 auto;
+    }
+ .intro-text h2 {
+    font-size: 14px;
+    }
+ .intro-text p {
+    font-size: 11px;
+   }
+ .upplevelser h2 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.upplevelse-kort {
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+}
 }
