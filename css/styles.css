@@ -305,13 +305,15 @@ footer h3 {
 
 .menu-toggle {
 cursor: pointer;
+display: none;
 }
 @media (max-width: 600px) {
     header { 
-    padding: 15px 20px;
+    flex-wrap: wrap;
     }
    .menu-toggle {
     display: block;
+    background: none;
     border: none;
     font-size: 25px;
     color: #4a2e1e;
@@ -324,9 +326,10 @@ cursor: pointer;
       display: block;  
     }
     .menu ul {
-        display: flex;
         flex-direction: column;
-        gap: 15px;
         align-items: flex-start;
+        gap: 13px;
+        padding-top: 15px;
+        
     }
 }
