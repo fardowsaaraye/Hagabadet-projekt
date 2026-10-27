@@ -300,3 +300,33 @@ footer h3 {
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+/* Mobilmeny */
+
+.menu-toggle {
+cursor: pointer;
+}
+@media (max-width: 600px) {
+    header { 
+    padding: 15px 20px;
+    }
+   .menu-toggle {
+    display: block;
+    border: none;
+    font-size: 25px;
+    color: #4a2e1e;
+    }
+   .menu {
+    display: none;
+    width: 100%;
+    }
+    .menu.open {
+      display: block;  
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+}
