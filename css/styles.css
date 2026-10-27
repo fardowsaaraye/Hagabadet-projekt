@@ -177,3 +177,33 @@ footer h3 {
     margin-bottom: 20px;
     letter-spacing: 3px;
  }
+/* Upplevelser.html */
+
+.hero-upplevelser {
+    position: relative;
+    margin: 0;
+    height: 300px;
+    }
+.hero-upplevelser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    }
+.hero-text h1 {
+   margin: 0 0 15px;
+   letter-spacing: 2px;
+   font-family: "Cormorant Garamont", serif;
+   font-size: 33px;
+    }
+.hero-text p {
+    font-family: "Cormorant Garamont", serif;
+    font-size: 20px;
+    }
+
+
