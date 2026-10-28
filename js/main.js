@@ -14,3 +14,19 @@ const namnInput = document.querySelector("#namn");
 const epostInput = document.querySelector("#epost");
 const meddelandeInput = document.querySelector("#meddelande");
 const errorList = document.querySelector("#errorlist");
+
+// Validerar kontaktformuläret
+function validateForm () {
+    const errors = [];
+
+    if (namnInput.value.trim() === ""){
+        errors.push("Du måste ange ditt namn");
+        }
+    if (epostInput.value.trim() ===""){
+        errors.push("Du måste ange din e-post");
+         } 
+
+    if (meddelandeInput.value.trim() === ""){
+        errors.push("Du måste skriva ett meddelande");
+     } 
+} 
