@@ -30,3 +30,7 @@ function validateForm () {
         errors.push("Du måste skriva ett meddelande");
      } 
 } 
+// Eventlyssnare 
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+      });
