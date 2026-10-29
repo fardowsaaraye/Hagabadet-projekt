@@ -54,11 +54,11 @@ nav a {
     left: 12%;
     color: white;
      }
-.hero-innehall h1 {
+.hero-innehall h2 {
     max-width: 250px;
     margin: 0 0 15px;
     font-family: "Cormorant Garamond", serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 60;
     letter-spacing: 2px;
      }
@@ -417,10 +417,10 @@ width: 100%;
 
 #nasta-bild {
     font-family: "Cormorant Garamond", serif; 
-    font-size: 12px;
+    font-size: 14px;
     padding: 7px 9px;
     background-color: #E8D9C9;
-    color: black:
+    color: black;
     }
 .spa-bildspel {
     display: flex;

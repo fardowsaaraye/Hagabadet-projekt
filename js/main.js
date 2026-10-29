@@ -1,17 +1,21 @@
 "use strict";
 
-// hamburgermeny
+/* Hamburgermeny */
+
+// Hämta menyelement
 const menuToggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".menu");
 
-
+// Hantera klick på menyknappen
 if (menuToggle && menu) {
 menuToggle.addEventListener("click", function() {
   menu.classList.toggle("open");
 });
 }
 
-// Hämtat element från DOM
+/* validering av kontaktformulär */
+
+// Hämta formulärelement 
 const form = document.querySelector("#kontakt-form");
 const namnInput = document.querySelector("#namn");
 const epostInput = document.querySelector("#epost");
@@ -26,7 +30,7 @@ let errors = [];
 function validateForm() {
 errors = [];
 
-
+// kontrollera att formulärets fält är ifyllda 
 if (namnInput.value.trim() === "") {
     errors.push("Du måste ange ditt namn");
     }
@@ -36,7 +40,7 @@ if (epostInput.value.trim() ===""){
 if (meddelandeInput.value.trim() === ""){
     errors.push("Du måste skriva ett meddelande");
     } 
- 
+ // kontrollera om det finns några felmeddelanden
     if (errors.length === 0) {
         return true;
          } else { 
@@ -56,7 +60,7 @@ function displayErrors () {
     } );
    }
 
-// Eventlyssnare
+// Eventlyssnare för formuläret
 if (form) {
 form.addEventListener ("submit", function(event) {
     event.preventDefault();
@@ -68,6 +72,8 @@ form.addEventListener ("submit", function(event) {
     displayErrors();
 } );
 }
+
+/* Bild spel för spa  */
 
 // Hämta bilden som visas i spa bildspelet
 const spaBild = document.querySelector("#spa-bild");
