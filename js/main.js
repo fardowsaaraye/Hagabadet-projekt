@@ -68,3 +68,16 @@ form.addEventListener ("submit", function(event) {
     displayErrors();
 } );
 }
+
+// Hämta bilden som visas i spa bildspelet
+const spaBild = document.querySelector("#spa-bild");
+
+// Hämta knappen från HTML
+const nastaBild = document.querySelector("#nasta-bild");
+
+// Lista med alla bilder som används i bildspelet
+const spaBilder = [
+    "images/hagabadet.jpg",
+    "images/spabild-1.jpg",
+    "images/spabild-2.jpg",
+    ];
