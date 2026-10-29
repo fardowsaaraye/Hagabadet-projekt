@@ -403,4 +403,14 @@ footer h3 {
     flex-direction: column;
     align-items: center;
     } 
+.spa h2 {
+ width: 100%;
+
 }
+.massage h2 {
+width: 100%;
+    }
+.yoga h2 {
+    width: 100%;
+    }
+} 
