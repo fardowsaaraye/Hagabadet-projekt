@@ -89,6 +89,10 @@ let aktuellBild = 0;
 nastaBild.addEventListener("click", function() {
     aktuellBild = aktuellBild + 1;
 
+    // Börja om från första bilden
+    if (aktuellBild >= spaBilder.length) {
+        aktuellBild = 0;
+        }
     // visa nästa bild
     spaBild.src = spaBilder[aktuellBild];
    }); 
