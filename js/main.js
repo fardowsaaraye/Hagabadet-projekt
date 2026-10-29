@@ -77,7 +77,19 @@ const nastaBild = document.querySelector("#nasta-bild");
 
 // Lista med alla bilder som används i bildspelet
 const spaBilder = [
-    "images/hagabadet.jpg",
+    "images/Hagabadet.jpg",
     "images/spabild-1.jpg",
     "images/spabild-2.jpg",
     ];
+
+// Håller reda på vilken bild som visas just nu
+let aktuellBild = 0;
+
+// Eventlyssnare för knappen
+nastaBild.addEventListener("click", function() {
+    aktuellBild = aktuellBild + 1;
+
+    // visa nästa bild
+    spaBild.src = spaBilder[aktuellBild];
+   }); 
+
