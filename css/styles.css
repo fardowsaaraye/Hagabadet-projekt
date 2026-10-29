@@ -414,3 +414,16 @@ width: 100%;
     width: 100%;
     }
 } 
+
+#nasta-bild {
+    font-family: "Cormorant Garamond", serif; 
+    font-size: 12px;
+    padding: 7px 9px;
+    background-color: #E8D9C9;
+    color: black:
+    }
+.spa-bildspel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+      }
