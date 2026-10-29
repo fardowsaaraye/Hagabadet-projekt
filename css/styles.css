@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+     margin: 0;
+     font-family: "Cormorant Garamond", serif;
+ }
+/* Header och navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #F8F4EE;
+  }
+.logo {
+     font-family: "Cormorant Garamond", serif;
+     font-size: 26px;
+     font-weight: 500;
+     letter-spacing: 4px;
+     color: black;
+     text-decoration: none;
+    }
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+nav a { 
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+     }
+
+/* Hero-sektion */
+.hero {
+    position: relative;
+    margin: 0;
+    height: 300px;
+ }
+.hero img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+    }
+.hero-innehall {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    color: white;
+     }
+.hero-innehall h2 {
+    max-width: 250px;
+    margin: 0 0 15px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 60;
+    letter-spacing: 2px;
+     }
+.hero-innehall .button {
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: #AC7F5E;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 27px;
+    }
+
+/* Introduktionssektion */
+.intro {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 50px;
+ padding: 35px 8px;
+ }
+.intro-text {
+    font-size: 16px;
+    font-family: "Cormorant Garamond",serif;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    max-width: 400px;
+    margin-left: 100px;
+ } 
+
+.intro-text h2 {
+    font-size: 25px;
+    font-weight: 60;
+    line-height: 1.4;
+    margin-top: 0;
+    } 
+ .intro-bild {
+  width: 500px;
+  margin-right: 150px;
+    }
+.intro-bild img {
+    display: block;
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+     }
+/* Upplevelsesektion - våra upplevelser */
+.upplevelser {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #F8F4EE;
+    }
+.upplevelser h2 {
+    font-size: 28px;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    font-weight: 80;
+     }
+.upplevelse-kort {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.upplevelse-kort img { 
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    }
+.upplevelse-spa p { 
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+.upplevelse-massage p { 
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+.upplevelse-yoga p {
+    background-color: #E8D9C9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #401B01;
+    color: white;
+}
+footer h2 {
+    font-size: 24px;
+    font-weight: 60;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    }
+footer p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    }
+
+footer h1 {
+    font-size: 40px; 
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 500;
+     }
+footer h3 {
+    letter-spacing: 1px;
+    }
+.footer-kontakt h3 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+ }
+/* Upplevelse sidan */
+
+.hero-upplevelser {
+    position: relative;
+    margin: 0;
+    height: 300px;
+    }
+.hero-upplevelser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    }
+.hero-text h1 {
+   margin: 0 0 15px;
+   letter-spacing: 2px;
+   font-family: "Cormorant Garamont", serif;
+   font-size: 33px;
+    }
+.hero-text p {
+    font-family: "Cormorant Garamont", serif;
+    font-size: 20px;
+    }
+
+.spa img {
+ width: 350px;
+ height: 200px;
+ object-fit: cover;
+ 
+     }
+.massage img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.yoga img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+     }
+.spa h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color:  #E8D9C9;
+    width: 700px;
+    }
+.spa p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    max-width: 680px;
+    }
+.massage h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color: #E8D9C9;
+    width: 700px;
+    }
+.massage p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    max-width: 680px;
+    }
+.yoga h2 {
+    font-family: "Cormorant Garamont",serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color: #E8D9C9;;
+    width: 700px;
+    }
+.yoga p {
+    font-family: "Cormorant Garamont",serif;
+    letter-spacing: 1px;
+    max-width: 680px;
+    }
+.spa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+  }
+.massage {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+     }
+.yoga { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+    }
+
+/* Kontakt sidan */
+.kontakt-formular { 
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 30px;
+     }
+.kontakt-formular input { 
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
+.kontakt-formular textarea { 
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+.kontakt-formular h1 {
+    font-family: "Cormorant Garamond",serif;
+    font-size: 33px;
+    letter-spacing: 2px;
+    }
+.kontakt-formular p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Mobilmeny */
+
+.menu-toggle {
+cursor: pointer;
+display: none;
+}
+@media (max-width: 600px) {
+    header { 
+    flex-wrap: wrap;
+    }
+   .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #4a2e1e;
+    }
+   .menu {
+    display: none;
+    width: 100%;
+    }
+    .menu.open {
+      display: block;  
+    }
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 13px;
+        padding-top: 15px;
+    }
+     .intro-bild {
+         display: none;
+      }
+     .intro-text {
+        text-align: center;
+         margin: 0 auto;
+       }
+      .intro-text h2 {
+        font-size: 14px;
+       }
+      .intro-text p {
+        font-size: 11px;
+       }
+      .upplevelser h2 {
+       text-align: center;
+       font-size: 17px;
+       margin-top: 0;
+       margin-bottom: 15px;
+       } 
+      .upplevelse-kort {
+      display: flex;
+      flex-direction: column;
+       gap: 25px;
+       }
+ 
+  footer {
+    padding: 20px 12px;
+    gap: 10px;
+     }
+ footer h1 {
+    display: none;
+    }
+ footer h2 {
+    font-size: 18px;
+    }
+footer h3 {
+    font-size: 14px;
+ }
+ footer p {
+    font-size: 10px;
+}
+.hero-text p {
+    font-weight: 600;
+    font-size: 18px;
+    }
+.hero-text {
+    top: 28%;
+     }
+.hero-text h1 {
+    font-size: 30px;
+}
+.spa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } 
+.massage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+.yoga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+.spa h2 {
+ width: 100%;
+
+}
+.massage h2 {
+width: 100%;
+    }
+.yoga h2 {
+    width: 100%;
+    }
+} 
+
+#nasta-bild {
+    font-family: "Cormorant Garamond", serif; 
+    font-size: 14px;
+    padding: 7px 9px;
+    background-color: #E8D9C9;
+    color: black;
+    }
+.spa-bildspel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+      }

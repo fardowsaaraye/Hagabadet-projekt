@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hagabadet</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
 </head>
-<!--Header-->
+<!--Header och navigation-->
 <body>
     <header>
     <a href="index.html" class="logo">Hagabadet</a>
@@ -33,34 +34,37 @@
 </section>
 
 <!--Upplevelse: Spa och relax-->
-<section class="upplevelse-spa">
+<section class="spa">
     <div>
         <h2>Spa och Relax</h2>
-        <p>Lämna vardagens stress bakom dig och njut av en stund av värme, vatten och avkoppling i en lugnande miljö.</p>
+        <p>Vi på Hagabadet erbjuder flera härliga spa-upplevelser, bland annat PureSpa entré med pooler, bastu och avkoppling, Sprunch där spa kombineras med brunch och Self-Care Sunday med fokus på egen tid och välmående. Vi välkomnar även större sällskap och grupper, kompisgäng eller kollegor, som vill njuta av gemensam spa-upplevelse. </p>
     </div>
-    <img src="images/Hagabadet.jpg" alt="Bastu i en spa">
+    <div class="spa-bildspel">
+    <img  id="spa-bild" src="images/Hagabadet.jpg" alt="Bastu i en spa">
+    <button id="nasta-bild" type="button">Nästa bild</button>
+    </div>
 </section>
 
 <!--Upplevelse: Massage-->
-<section class="upplevelse-massage">
+<section class="massage">
     <div>
         <h2>Massage</h2>
-        <p>Unna dig en stund för dig själv med massage och behandlingar som ger avkoppling och välmående.</p>
+        <p>Massageupplevelserna erbjuder avkoppling och återhätmning för både kropp och sinne. Här finns bland annat klassisk massage för spända muskler, Harmony massage med aromoljor för djup avslappning och bambumassage för en mer djupgående behandling. Det finns även massage för ansikte, nacke och hårbotten, med fokus på välmående och återhätmning.</p>
     </div>
     <img src="images/Massage.jpg" alt="ett rum med massagesängar på ett spa">
 </section>
 
 <!--Upplevelse: Yoga-->
-<section class="upplevelse-yoga">
+<section class="yoga">
     <div>
         <h2>Yoga</h2>
-        <p>Hitta balans mellan kropp och sinne genom yoga.</p>
+        <p>På Hagabadet har vi en yogastudio där du kan hitta lugn, balans och styrka genom olika yogastilar bland annat klassisk yoga, hot yoga och flying yoga. Vi erbjuder klasser för både nybörjare och erfarna, där passen leds av erfarna yogalärare. Yogamattor och annan utrustning finns att låna för att du ska få en så bekväm och avkopplande upplevelse som möjligt. </p>
     </div>
     <img src="images/yoga.jpg" alt="kvinna som utför yoga på en yogamatta">
 </section>
 </main>
-<!--Footer och kontaktinformation-->
 
+<!--Footer och kontaktinformation-->
 <footer class="footer">
     <div class="footer-platser">
     <h2>Våra spa</h2>
@@ -88,6 +92,4 @@
  
 </footer>
 </body>
-
-
 </html>
